@@ -1,40 +1,40 @@
 # GEMINI.md
 
-## Project Overview
+## 專案概觀
 
-This project is a Python desktop application designed to help photographers find duplicate Canon CR3 raw image files. The application provides a graphical user interface (GUI) to select a folder, and then it analyzes the CR3 files to identify duplicates, grouping them for easy review.
+本專案是一個 Python 桌面應用程式，旨在協助攝影師尋找重複的 Canon CR3 raw 圖片檔案。該應用程式提供圖形化使用者介面（GUI），讓使用者可以選擇資料夾，然後分析 CR3 檔案以識別重複項，並將其分組以便於檢視。
 
-The project is structured as a Python application. The main logic is intended to be in `CR3/CR3/main.py`, although the current implementation is just a placeholder. The application relies on the `Pillow` library for image processing.
+本專案的結構是一個 Python 應用程式。主要邏輯預計放在 `CR3/CR3/main.py` 中，不過目前的實作只是一個預留位置。該應用程式依賴 `Pillow` 函式庫進行圖片處理。
 
-## Building and Running
+## 建置與執行
 
-### Prerequisites
+### 先決條件
 
 *   Python 3.6+
-*   `pip` for installing packages
+*   用於安裝套件的 `pip`
 
-### Installation
+### 安裝
 
-1.  **Install Dependencies:** The project requires the `Pillow` library.
+1.  **安裝相依套件：** 本專案需要 `Pillow` 函式庫。
 
     ```bash
     pip install Pillow
     ```
 
-### Running the Application
+### 執行應用程式
 
-To run the application, navigate to the `CR3/CR3` directory and execute the main Python script:
+若要執行應用程式，請導覽至 `CR3/CR3` 目錄並執行主要的 Python 指令碼：
 
 ```bash
 cd CR3/CR3
 python main.py
 ```
 
-**TODO:** The `main.py` file currently only prints a "Hello World" message. The core logic for the GUI, file selection, and duplicate detection needs to be implemented.
+**待辦事項：** `main.py` 檔案目前只會印出「Hello World」訊息。GUI、檔案選擇和重複偵測的核心邏輯尚待實作。
 
-## Development Conventions
+## 開發慣例
 
-*   The project is written in Python.
-*   The application should have a graphical user interface.
-*   The core functionality is to identify and group duplicate CR3 files.
-*   The project structure suggests that documentation is kept in the `doc` directory.
+*   本專案以 Python 編寫。
+*   應用程式應具有圖形化使用者介面。
+*   核心功能是識別並分組重複的 CR3 檔案。
+*   專案結構建議將文件保留在 `doc` 目錄中。
