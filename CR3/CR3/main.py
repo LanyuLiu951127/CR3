@@ -1,0 +1,1 @@
+print("Hello from CR3 Duplicate Photo Checker!")
